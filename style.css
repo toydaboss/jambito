@@ -272,3 +272,105 @@ input.star-1:checked ~ label.star:before{
 input.star-2:checked ~ label.star:before{
     color: #f62;
 } 
+/* footer */
+footer{
+    background-color: blue;
+    margin: o auto;
+}
+
+/* 
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+  background-color: gray;
+}
+
+#page-footer {
+    background-color: #27221F;
+    color: #fff;
+    border-top: solid #27221F;
+    padding: 1rem;
+  }
+  #page-footer h4 {
+    margin-bottom: 1%;
+    font-family: monospace;
+  }
+  
+  #page-footer ul {
+      padding:0;
+      list-style: none;
+  }
+  .footer-social-icons {
+      width: 350px;
+      display:block;
+      margin: 0 auto;
+      background-color: #27221F;
+  }
+  .social-icon {
+      color: #fff;
+  }
+  ul.social-icons {
+      margin-top: 10px;
+  }
+  .social-icons li {
+      vertical-align: top;
+      display: inline;
+      height: 100px;
+  }
+  .social-icons a {
+      color: #fff;
+      text-decoration: none;
+  }
+  .fa-twitter {
+      padding:10px 12px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #27221F;
+  }
+  .fa-twitter:hover {
+      background-color: #00aced;
+  }
+  .fa-medium {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #27221F;
+  }
+  .fa-medium:hover {
+      background-color: #00ab6c;
+  }
+  
+  .fa-linkedin {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #27221F;
+  }
+  .fa-linkedin:hover {
+      background-color: #0073a4;
+  }
+  .fa-github {
+      padding:10px 14px;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition: .5s;
+      background-color: #27221F;
+  }
+  .fa-github:hover {
+      background-color: #5a32a3;
+  }
+
+
+
+*/
