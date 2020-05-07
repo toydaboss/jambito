@@ -125,14 +125,14 @@ nav a:hover {
     margin: 6em 11em;
 }
 .card-1{
-    width: 35%;
+    width: 40%;
     height: 600px;
     background-color: rgba(240, 239, 239, 0.5);
     border-radius: 20px;
     text-align: center;
 }
 .card-2{
-    width: 35%;
+    width: 40%;
     height: 600px;
     background-color: rgba(240, 239, 239, 0.5);
     border-radius: 20px;
@@ -155,14 +155,14 @@ nav a:hover {
     width:60%;
     font-size: 15px;    
     text-align: left;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .card-2 p{
     margin: 0 auto;
     width:60%;
     font-size: 15px;    
     text-align: left;
-    margin-top: 20px;
+    margin-top: 6px;
 }
 .card-1 button{
     width: 100px;
@@ -203,7 +203,7 @@ nav a:hover {
     padding: 5em 9em;
 }
 .question-text h2{
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 .question-text button{
     width: 100px;
@@ -271,13 +271,52 @@ input.star-1:checked ~ label.star:before{
 } 
 input.star-2:checked ~ label.star:before{
     color: #f62;
-} 
+}
+ /* Text area  */
+.text-box{
+    margin-left: 689px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    width: 50%;
+    height: 100px;
+    border: 2px solid #1C37C2;
+}
+textarea::placeholder{
+    text-align: center;
+    padding: 2em;
+    font-size: 15px;
+}
+.text-box button{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 4em;
+    margin-bottom: 2em;
+}
 /* footer */
 footer{
     background-color: blue;
     margin: o auto;
+    color: white;
 }
-
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3em;
+}
+.fa{
+    color: white;
+    padding: .5em;
+}
 /* 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
