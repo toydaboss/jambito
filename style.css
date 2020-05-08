@@ -80,7 +80,7 @@ nav a:hover {
 /* Header */
 
 .header{
-    background-image: url(/image/exams\ 1.jpg);
+    background-image: url(image/exams\ 1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,8 +145,8 @@ nav a:hover {
     border-radius: 300px;
 }
 .card-2 img{
-    padding: 2em;
-    height: 300px;
+    padding: 1em 2em;
+    height: 285px;
     width: 70%;
     border-radius: 300px;
 }
@@ -162,7 +162,6 @@ nav a:hover {
     width:60%;
     font-size: 15px;    
     text-align: left;
-    margin-top: 6px;
 }
 .card-1 button{
     width: 100px;
@@ -194,13 +193,13 @@ nav a:hover {
     margin: 0 auto;
 }
 .question img{
-    width: 40%;
+    width: 90%;
     height: 300px;
-    padding: 3em 10em;
+    padding: 3em 1em;
 }
 .question-text{
     width: 50%;
-    padding: 5em 9em;
+    padding: 5em 7em;
 }
 .question-text h2{
     margin-bottom: 1em;
