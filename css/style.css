@@ -107,13 +107,41 @@ nav ul li button:active {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
-          box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+  -webkit-box-shadow: -7px -7px 20px 0px #fff9,
+ -4px -4px 5px 0px #fff9,
+ 7px 7px 20px 0px #0002,
+ 4px 4px 5px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001;
+          box-shadow: -7px -7px 20px 0px #fff9,
+ -4px -4px 5px 0px #fff9,
+ 7px 7px 20px 0px #0002,
+ 4px 4px 5px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001;
 }
 
 .menu-icon:hover {
-  -webkit-box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #0001, 0px 0px 0px 0px #0001, inset -7px -7px 20px 0px #fff9, inset -4px -4px 5px 0px #fff9, inset 7px 7px 20px 0px #0003, inset 4px 4px 5px 0px #0001;
-          box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #0001, 0px 0px 0px 0px #0001, inset -7px -7px 20px 0px #fff9, inset -4px -4px 5px 0px #fff9, inset 7px 7px 20px 0px #0003, inset 4px 4px 5px 0px #0001;
+  -webkit-box-shadow: 0px 0px 0px 0px #fff9,
+ 0px 0px 0px 0px #fff9,
+ 0px 0px 0px 0px #0001,
+ 0px 0px 0px 0px #0001,
+ inset -7px -7px 20px 0px #fff9,
+ inset -4px -4px 5px 0px #fff9,
+ inset 7px 7px 20px 0px #0003,
+ inset 4px 4px 5px 0px #0001;
+          box-shadow: 0px 0px 0px 0px #fff9,
+ 0px 0px 0px 0px #fff9,
+ 0px 0px 0px 0px #0001,
+ 0px 0px 0px 0px #0001,
+ inset -7px -7px 20px 0px #fff9,
+ inset -4px -4px 5px 0px #fff9,
+ inset 7px 7px 20px 0px #0003,
+ inset 4px 4px 5px 0px #0001;
 }
 
 .menu-icon .navicon {
@@ -227,7 +255,7 @@ nav ul li button:active {
 }
 
 .banner {
-  background-image: url(/img/bg-sm.jpg);
+  background-image: url(img/bg-sm.jpg);
   height: 40vh;
   max-height: 266px;
   width: 100%;
