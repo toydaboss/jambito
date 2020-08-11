@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap");
+<<<<<<< HEAD
 /* font-family: 'Montserrat', sans-serif;
+=======
+/* font-family: 'Montserrat', sans-serif;
+>>>>>>> e38e1097e3373a6a143bdf64ebdf2ecc49b3848c
 font-family: 'Roboto', sans-serif; */
 * {
   margin: 0;
@@ -107,6 +111,7 @@ nav ul li button:active {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+<<<<<<< HEAD
   -webkit-box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
           box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001, inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
 }
@@ -114,6 +119,43 @@ nav ul li button:active {
 .menu-icon:hover {
   -webkit-box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #0001, 0px 0px 0px 0px #0001, inset -7px -7px 20px 0px #fff9, inset -4px -4px 5px 0px #fff9, inset 7px 7px 20px 0px #0003, inset 4px 4px 5px 0px #0001;
           box-shadow: 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #fff9, 0px 0px 0px 0px #0001, 0px 0px 0px 0px #0001, inset -7px -7px 20px 0px #fff9, inset -4px -4px 5px 0px #fff9, inset 7px 7px 20px 0px #0003, inset 4px 4px 5px 0px #0001;
+=======
+  -webkit-box-shadow: -7px -7px 20px 0px #fff9,
+ -4px -4px 5px 0px #fff9,
+ 7px 7px 20px 0px #0002,
+ 4px 4px 5px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001;
+          box-shadow: -7px -7px 20px 0px #fff9,
+ -4px -4px 5px 0px #fff9,
+ 7px 7px 20px 0px #0002,
+ 4px 4px 5px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001,
+ inset 0px 0px 0px 0px #fff9,
+ inset 0px 0px 0px 0px #0001;
+}
+
+.menu-icon:hover {
+  -webkit-box-shadow: 0px 0px 0px 0px #fff9,
+ 0px 0px 0px 0px #fff9,
+ 0px 0px 0px 0px #0001,
+ 0px 0px 0px 0px #0001,
+ inset -7px -7px 20px 0px #fff9,
+ inset -4px -4px 5px 0px #fff9,
+ inset 7px 7px 20px 0px #0003,
+ inset 4px 4px 5px 0px #0001;
+          box-shadow: 0px 0px 0px 0px #fff9,
+ 0px 0px 0px 0px #fff9,
+ 0px 0px 0px 0px #0001,
+ 0px 0px 0px 0px #0001,
+ inset -7px -7px 20px 0px #fff9,
+ inset -4px -4px 5px 0px #fff9,
+ inset 7px 7px 20px 0px #0003,
+ inset 4px 4px 5px 0px #0001;
+>>>>>>> e38e1097e3373a6a143bdf64ebdf2ecc49b3848c
 }
 
 .menu-icon .navicon {
@@ -761,6 +803,7 @@ input.star-2:checked ~ label.star:before {
   margin: 1em;
 }
 
+<<<<<<< HEAD
 .text-box button {
   margin: 1em auto;
   cursor: pointer;
@@ -788,6 +831,8 @@ input.star-2:checked ~ label.star:before {
           box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
+=======
+>>>>>>> e38e1097e3373a6a143bdf64ebdf2ecc49b3848c
 @media only screen and (min-width: 550px) {
   .feedback-flex {
     display: -webkit-box;
