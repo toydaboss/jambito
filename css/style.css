@@ -320,6 +320,15 @@ nav ul li button:active {
   }
 }
 
+@media (orientation: Landscape) {
+  .banner {
+    height: 60vh;
+  }
+  .banner .banner-text {
+    margin: 1em auto;
+  }
+}
+
 .taeb-switch {
   position: relative;
   display: -webkit-box;
@@ -391,8 +400,8 @@ nav ul li button:active {
 .switch-card {
   display: -ms-grid;
   display: grid;
-  height: 40vh;
-  max-height: 230px;
+  height: 50vh;
+  max-height: 280px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -553,6 +562,12 @@ nav ul li button:active {
   }
   #courseSelect {
     height: 40px;
+  }
+}
+
+@media (orientation: Landscape) {
+  .switch-card {
+    height: 60vh;
   }
 }
 

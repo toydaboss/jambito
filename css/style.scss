@@ -283,6 +283,15 @@ nav{
         max-height: 800px;
     }
 }
+@media(orientation:Landscape){
+    .banner{
+        height: 60vh;
+        .banner-text{
+            margin:1em auto;
+         }
+    }
+
+}
 .taeb-switch{
     position: relative;
     display: flex;
@@ -336,8 +345,8 @@ nav{
 }
 .switch-card{
     display: grid;
-    height: 40vh;
-    max-height: 230px;
+    height: 50vh;
+    max-height: 280px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -472,6 +481,11 @@ nav{
     }
     #courseSelect{
         height: 40px;
+    }
+}
+@media(orientation:Landscape){
+    .switch-card{
+        height: 60vh;
     }
 }
 .got-a-question{
