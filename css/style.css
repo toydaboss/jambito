@@ -108,7 +108,6 @@ nav ul li button:active {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-<<<<<<< HEAD
   -webkit-box-shadow: -7px -7px 20px 0px #fff9,
  -4px -4px 5px 0px #fff9,
  7px 7px 20px 0px #0002,
@@ -144,7 +143,6 @@ nav ul li button:active {
  inset -4px -4px 5px 0px #fff9,
  inset 7px 7px 20px 0px #0003,
  inset 4px 4px 5px 0px #0001;
-=======
   -webkit-box-shadow: -7px -7px 20px 0px #fff9,
  -4px -4px 5px 0px #fff9,
  7px 7px 20px 0px #0002,
