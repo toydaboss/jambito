@@ -1,0 +1,193 @@
+<!-- Things Still needed
+*Responsiveness
+*Error Handling
+*Logo Change -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/solid.min.css"> -->
+    <script src="https://kit.fontawesome.com/e74ec2339b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav sign-in-nav">
+            <a href="" class="logo">Jambito</a>
+            <input type="checkbox" id="menu-btn" class="menu-btn"/>
+            <label for="menu-btn" class="menu-icon" ><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- <li><button><a href="#">Login</a></button></li> -->
+            </ul>
+        </nav>
+        <div class="signin-container">
+          <div class="overlay" id="overlay">
+            <div class="sign-in" id="sign-in">
+              <h1>Welcome Back!</h1>
+              <p>To keep connected with us please login with your info</p>
+              <button class="switch-button" id="slide-right-button">Sign In</button>
+            </div>
+            <div class="sign-up" id="sign-up">
+              <h1>Hello, Friend!</h1>
+              <p>Enter your details and start a journey with us</p>
+              <button class="switch-button" id="slide-left-button">Sign Up</button>
+            </div>
+          </div>
+          <div class="form">
+            <div class="sign-in" id="sign-in-info">
+              <h1>Sign In</h1>
+              <div class="social-media-buttons">
+                <div class="icon">
+                  <svg viewBox="0 0 24 24">
+                    <path fill="#000000" d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z" />
+                </svg>
+                </div>
+                <div class="icon">
+                <svg viewBox="0 0 24 24">
+                    <path fill="#000000" d="M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z" />
+                </svg>
+                </div>
+                <div class="icon">
+                <svg viewBox="0 0 24 24">
+                  <path fill="#000000" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" />
+                </svg>
+                </div>
+              </div>
+              <p class="small">or use your email account:</p>
+              <form id="sign-in-form">      
+                <input type="email" placeholder="Email"/>
+                <input type="password" placeholder="Password"/>
+                <p class="forgot-password">Forgot your password?</p>
+                <button class="control-button in">Sign In</button>
+              </form>
+            </div>
+            <div class="sign-up" id="sign-up-info">
+              <h1>Create Account</h1>
+              <div class="social-media-buttons">
+                <div class="icon">
+                  <svg viewBox="0 0 24 24">
+                    <path fill="#000000" d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z" />
+                </svg>
+                </div>
+                <div class="icon">
+                <svg viewBox="0 0 24 24">
+                    <path fill="#000000" d="M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z" />
+                </svg>
+                </div>
+                <div class="icon">
+                <svg viewBox="0 0 24 24">
+                  <path fill="#000000" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" />
+                </svg>
+                </div>
+              </div>
+              <p class="small">or use your email for registration:</p>
+              <form id="sign-up-form">
+                <input type="text" placeholder="Name"/>
+                <input type="email" placeholder="Email"/>
+                <input type="password" placeholder="Password"/>
+                <button class="control-button up">Sign Up</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="responsive-container">
+          <div class="switch-btn">
+            <div class="taeb-switch left text-center">
+                <div class="taeb btn-signin active" taeb-direction="left">Sign-in</div>
+                <div class="taeb btn-signup" taeb-direction="right">Sign-up</div>
+            </div>
+        </div>
+        <div class="switch-sign">
+          <div class="sign-in res-sign-in active" id="sign-in-info">
+            <h1>Sign In</h1>
+            <div class="social-media-buttons">
+              <div class="icon">
+                <svg viewBox="0 0 24 24">
+                  <path fill="#000000" d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z" />
+              </svg>
+              </div>
+              <div class="icon">
+              <svg viewBox="0 0 24 24">
+                  <path fill="#000000" d="M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z" />
+              </svg>
+              </div>
+              <div class="icon">
+              <svg viewBox="0 0 24 24">
+                <path fill="#000000" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" />
+              </svg>
+              </div>
+            </div>
+            <p class="small">or use your email account:</p>
+            <form id="sign-in-form-1">      
+              <input type="email" placeholder="Email"/>
+              <input type="password" placeholder="Password"/>
+              <p class="forgot-password">Forgot your password?</p>
+              <button class="control-button in">Sign In</button>
+            </form>
+          </div>
+          <div class="sign-up res-sign-up" id="sign-up-info">
+            <h1>Create Account</h1>
+            <div class="social-media-buttons">
+              <div class="icon">
+                <svg viewBox="0 0 24 24">
+                  <path fill="#000000" d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6A4,4 0 0,1 14,2H17Z" />
+              </svg>
+              </div>
+              <div class="icon">
+              <svg viewBox="0 0 24 24">
+                  <path fill="#000000" d="M23,11H21V9H19V11H17V13H19V15H21V13H23M8,11V13.4H12C11.8,14.4 10.8,16.4 8,16.4C5.6,16.4 3.7,14.4 3.7,12C3.7,9.6 5.6,7.6 8,7.6C9.4,7.6 10.3,8.2 10.8,8.7L12.7,6.9C11.5,5.7 9.9,5 8,5C4.1,5 1,8.1 1,12C1,15.9 4.1,19 8,19C12,19 14.7,16.2 14.7,12.2C14.7,11.7 14.7,11.4 14.6,11H8Z" />
+              </svg>
+              </div>
+              <div class="icon">
+              <svg viewBox="0 0 24 24">
+                <path fill="#000000" d="M21,21H17V14.25C17,13.19 15.81,12.31 14.75,12.31C13.69,12.31 13,13.19 13,14.25V21H9V9H13V11C13.66,9.93 15.36,9.24 16.5,9.24C19,9.24 21,11.28 21,13.75V21M7,21H3V9H7V21M5,3A2,2 0 0,1 7,5A2,2 0 0,1 5,7A2,2 0 0,1 3,5A2,2 0 0,1 5,3Z" />
+              </svg>
+              </div>
+            </div>
+            <p class="small">or use your email for registration:</p>
+            <form id="sign-up-form-1">
+              <input type="text" placeholder="Name"/>
+              <input type="email" placeholder="Email"/>
+              <input type="password" placeholder="Password"/>
+              <button class="control-button up">Sign Up</button>
+            </form>
+          </div>
+        </div>
+        
+        </div>
+        <footer id="contact">
+          <div class="quick-links">
+              <ul>
+                  <h3>QUICK LINKS</h3>
+                  <li>News</li>
+                  <li>Article</li>
+                  <li>Resources</li>
+              </ul>
+          </div>
+          <div class="service">
+              <ul>
+                  <h3>SERVICES</h3>
+                  <li>Hire a Tutor</li>
+                  <li>Consults</li>
+                  <li>Registration</li>
+              </ul>
+          </div>
+          <div class="socials">
+              <h3>FOLLOW US</h3>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-whatsapp"></i></a>
+          </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/sign.js"></script>
+</body>
+</html>

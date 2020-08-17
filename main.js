@@ -1,4 +1,4 @@
-/*jshint esversion:6*/
+
 $(function() {
     var taeb = $(".taeb-switch");
     taeb.find(".taeb").on("click", function() {
